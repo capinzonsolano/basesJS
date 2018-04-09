@@ -1,0 +1,26 @@
+.content .contenedor {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .contenedor h2 {
+  color: rgb(52, 9, 23);
+  font-size: 20px;
+}
+
+.content .contenedor li {
+  margin: 30px;
+  color: rgb(54, 55, 49);
+}
+
+.content .contenedor a {
+  font-size: 20px;
+  color: rgb(54, 55, 49);
+  padding: 20px;
+}
+
+.content .contenedor li:hover{
+  transition: .5s;
+  transform: scale(1.3) translateX(35px);
+
+}

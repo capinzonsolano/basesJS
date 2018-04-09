@@ -1,0 +1,96 @@
+/* Estilos Generales */
+
+body {
+  background: #eee;
+  margin: 0;
+  height: 100vh;
+  font-family: Allerta, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+body * a {
+  color: white;
+  text-decoration: none;
+}
+
+.header, .content, .footer {
+  display: flex;
+  justify-content: center;
+}
+
+.header, .footer {
+  background: #e05b19;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* header */
+
+.header a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  font-size: 17px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background: red;
+}
+
+/* content */
+
+.content {
+  flex: 1;
+  margin: 10px 0;
+}
+
+.content .contenedor {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.linea {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 5px;
+  margin: 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 14px;
+}
+
+/* footer */
+
+.footer {
+  flex-shrink: 0;
+  font-size: 12px;
+}
+
+.footer .contenedor {
+  justify-content: center;
+}

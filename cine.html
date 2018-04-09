@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aprendiendo JavaScript</title>
+  <link rel="stylesheet" href="./css/estilos.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:700" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="contenedor">
+      <a href="#">Aprendiendo JS - Cine</a>
+      <nav class="menu">
+        <ul>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./triangulo.html">Triangulo</a></li>
+          <li><a href="./cine.html">Cine</a></li>
+          <li><a href="./platzon.html">Platzon</a></li>
+          <li><a href="./heroes.html">Héroes</a></li>
+          <li><a href="./fecha.html">Fecha</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="content">
+    <div class="contenedor">
+      <h1>¿Quieres entrar a la película?</h1>
+      <div class="linea">
+        <label for="nombre">¿Cuál es tu nombre?</label>
+        <input class="input" id="nombre" type="text" name="nombre">
+      </div>
+
+      <div class="linea">
+        <label for="edad">¿Cuántos años tienes?</label>
+        <input class="input" id="edad" type="text" name="edad">
+      </div>
+
+      <div class="linea mayor" id="mayor">
+        <label>¿Vienes acompañado por un mayor de edad?</label>
+        <span>
+          <label for="rd-si">Sí</label>
+          <input class="radio" id="rd-si" type="radio" name="mayor" value="true">
+          <label for="rd-no">No</label>
+          <input checked class="radio" id="rd-no" type="radio" name="mayor" value="false">
+        </span>
+      </div>
+
+      <button class="btn" id="btn-validar" type="button" name="button">Validar</button>
+      <p id="resultado" class="res"></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <p>-- Este es el footer de aprendiendo JS - Página del Cine --</p>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./js/cine.js"></script>
+</body>
+
+</html>
