@@ -1,2 +1,4 @@
-# basesJS
-Acá pongo los ejercicios del curso básico de JS
+# BasesJS
+Ejecicios del curso de JS.
+El avance se puede ver en el website:
+## https://capinzonsolano.github.io/basesJS/
